@@ -1,4 +1,4 @@
-# ZenCode - Coding Community Platform
+# ZCoder - Coding Community Platform
 
 A full-stack coding community platform for sharing solutions, discussing problems, and collaborating in real-time.
 
@@ -146,7 +146,5 @@ zencode-final/
 - `POST /api/rooms` - Create room
 - WebSocket events for real-time updates
 
-## License
 
-MIT
 
