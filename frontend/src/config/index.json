@@ -1,0 +1,45 @@
+{
+  "company": {
+    "name": "ZCoder",
+    "logo": "/assets/images/logo.png"
+  },
+
+  "callToAction": {
+    "text": "Get started",
+    "href": "#"
+  },
+  "mainHero": {
+    "title": "Welcome to ZCoder",
+    "subtitle": "Empower Your Coding Journey",
+    "description": "ZCoder is your ultimate platform for creating personalized coding profiles, bookmarking coding problems, and engaging in collaborative learning through solution comments. Join us to enhance your coding skills in a community-driven environment.",
+    "img": "/assets/images/hero_image.png",
+    "primaryAction": {
+      "text": "Dashboard",
+      "to": "/dashboard"
+    },
+    "secondaryAction": {
+      "text": "Community",
+      "to": "/community"
+    }
+  },
+  "product": {
+    "title": "ZCoder Features",
+    "items": [
+      {
+        "title": "Personalised Profiles",
+        "description": "Craft your unique coding identity and connect with others. Create a profile that showcases your skills, projects, and coding journey. Connect with fellow coders, follow their progress, and get inspired by their achievements.",
+        "img": "/assets/images/Profile.jpg"
+      },
+      {
+        "title": "Collaborative Learning",
+        "description": "Engage in shared knowledge exchange and feedback on solutions. Comment on others' solutions, share your insights, and learn from the community. Collaborative learning helps you grow faster by leveraging the collective wisdom of the coding community.",
+        "img": "/assets/images/collaborative.jpg"
+      },
+      {
+        "title": "Comprehensive Calendar",
+        "description": "Stay updated on upcoming coding contests and events. Our comprehensive calendar keeps you informed about all the important dates, contests, and events in the coding world. Never miss an opportunity to participate and showcase your skills.",
+        "img": "/assets/images/calendar.png"
+      }
+    ]
+  }
+}

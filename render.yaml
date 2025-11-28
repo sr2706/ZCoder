@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: zencode-backend
+    env: node
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && npm start
+    envVars:
+      - key: MONGO_DB_URI
+        sync: false
+      - key: FRONTEND_URL
+        sync: false
+      - key: PORT
+        value: 5000
+    healthCheckPath: /api/users
+    plan: starter
+
